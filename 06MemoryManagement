@@ -1,0 +1,15 @@
+new() 
+Allocate memory but no INIT(initialize)
+you will get a memory address
+zeroed storage
+
+make()
+allocate memory and INIT
+you will get a memory address
+non-zeroed storage
+
+
+In Go GC(garbage collection happens automatically)
+
+
+runtime is a package itself conatin like how much of the CPU is available
