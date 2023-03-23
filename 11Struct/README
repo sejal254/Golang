@@ -1,0 +1,7 @@
+All public fields, methods and functions starts with uppercase char.
+All private fields, methods and functions starts with lowercase char.
+
+type MyStruct struct{
+     MyPublicField string
+     muPrivateFiled string
+}
