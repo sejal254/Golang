@@ -13,19 +13,40 @@ Constants are like variables, except they can't be modified once they have been 
 Constants are useful for defining a value that will be used more than once in your program, but shouldn't be able to change.
 
 
-Global/Local
+Global/Local variables
 
 package main
-
 var g = global
 func printlocal(){
      var l:=local
      fmt.Println(l)
-     
 }
 func main(){
      printlocal()
      fmt.Println(g)
 }
+
+// Error: count variable doesn't have a data type
+var count
+
+// count1 is of the int type
+var count1 int
+
+// count2 is of the int type
+var count2 = 10
+
+
+
+// initial value
+number := 10
+fmt.println("Initial number value", number) // prints 10
+
+// change variable value
+number = 100
+fmt.Println("The changed value", number)  // prints 100
+
+
+
+      
       
    
