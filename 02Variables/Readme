@@ -1,0 +1,3 @@
+
+
+In Go, := is for declaration + assignment, whereas = is for assignment only.
