@@ -1,3 +1,8 @@
 
 
 In Go, := is for declaration + assignment, whereas = is for assignment only.
+
+for example 
+var temp int=10 
+is same as 
+temp:=10
