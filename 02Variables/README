@@ -1,8 +1,13 @@
 
 
 In Go, := is for declaration + assignment, whereas = is for assignment only.
-
 for example 
 var temp int=10 
 is same as 
 temp:=10
+
+
+
+Difference between variable and constants
+Constants are like variables, except they can't be modified once they have been declared.
+Constants are useful for defining a value that will be used more than once in your program, but shouldn't be able to change.
