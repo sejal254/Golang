@@ -1,0 +1,2 @@
+The GOPATH environment variable lists places to look for Go code.
+On Unix, the value is a colon-separated string. On Windows, the value is a semicolon-separated string. 
