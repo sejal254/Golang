@@ -1,0 +1,28 @@
+Go provides built-in maps type that implements a hash table.
+map[keyType]valueType
+ex:-var m map[string]int -----variable m is a map of stirng keys to int values
+
+
+A nil map behaves like an empty map when reading, but attempts to write to a nil map will cause a
+runtime panic; don’t do that. To initialize a map, use the built in make function:
+m=make(map[string]int)
+-----The make function allocates and initializes a hash map data structure and returns a map value that points to it.
+
+m=make(map[string]int)  is same as  m=map[string]int{}
+
+i:=len(m) ---the builtin len function return number of items in the map
+delete(m,"js")
+
+iterate horough map
+for key,value:=range m{
+    fmt.Println("Key":"key",""Value":"value")
+    }
+    
+
+Initilize map with some data
+seja:=map[string]int{
+      "sejal":1,
+      "shivi":2,
+      
+}
+    
