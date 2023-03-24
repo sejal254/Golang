@@ -2,3 +2,5 @@ slice:=[]string{"one","two","three"}
 
 Appending a slice
 slice with range
+Range continued
+
