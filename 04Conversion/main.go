@@ -17,7 +17,7 @@ func main(){
 	i:=42
 	f:=float64(i)
 	u:=uint(f)
-	fmt.Println(u)
+	fmt.Printf("u is a type of %T\n",u)
 	
 	
 	
