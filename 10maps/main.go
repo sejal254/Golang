@@ -30,3 +30,4 @@ func main(){
 	fmt.Println(m["area"])
 }
 
+Output----{23.34,76.34}
