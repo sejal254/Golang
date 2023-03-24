@@ -1,0 +1,6 @@
+In Go language, you are allowed to define a method whose receiver is of a struct type. 
+Go methods are similar to Go function with one difference, i.e, the method contains a receiver argument in it.
+
+func (reciver_name Type)Method_name(parameters) (return_type){
+//code
+}
