@@ -10,3 +10,16 @@ func main(){
      result:=adder(1,2,3)
      fmt.Println(result)
 }
+
+
+
+
+A function can return multiple result
+ func swap(x,y string)(string,string){
+     return y,x
+}
+func main(){
+    a,b:=swap("world","Hello")
+    fmt.Println(a,b)
+    
+}
