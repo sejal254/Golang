@@ -18,6 +18,7 @@ func main(){
 	f:=float64(i)
 	u:=uint(f)
 	fmt.Printf("u is a type of %T\n",u)
+	//T type interface
 	
 	
 	
