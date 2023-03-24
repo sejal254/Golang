@@ -5,3 +5,7 @@ type MyStruct struct{
      MyPublicField string
      muPrivateFiled string
 }
+
+
+
+In Go programming, a structure or struct is a user-defined type to store a collection of different fields into a single field. 
