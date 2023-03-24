@@ -13,6 +13,14 @@ func main(){
 	input,_ :=reader.ReadString('\n')
 	fmt.Println("Thanks for rating" ,input)
 	
+	
+	i:=42
+	f:=float64(i)
+	u:=uint(f)
+	fmt.Println(u)
+	
+	
+	
 
 
 
