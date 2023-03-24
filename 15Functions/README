@@ -1,0 +1,12 @@
+Function Continued:---
+When two or more consecutive named function parameters share a type, you can omit the type from all but the last. 
+
+package main
+import "fmt"
+func adder(x,y,z int)int{
+    return x+y+z
+}
+func main(){
+     result:=adder(1,2,3)
+     fmt.Println(result)
+}
