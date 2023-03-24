@@ -18,4 +18,10 @@ func main() {
 	}
 
 	//in loops we also use break, continue,goto
+	
+	sum:=0
+	for i:=0;i<10;i++{
+		sum+=i
+	}
+	fmt.Println(sum)
 }
