@@ -3,3 +3,7 @@ y=&x
 fmt.Println(*y)------3
 y*=4
 fmt.Println(x)-------4
+
+A pointer holds the memory address of a vlaue.
+The & operator generate a pointers to its operand.
+The * denotes the poinetr's underlying value.
