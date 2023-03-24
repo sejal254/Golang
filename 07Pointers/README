@@ -1,0 +1,5 @@
+x=3
+y=&x
+fmt.Println(*y)------3
+y*=4
+fmt.Println(x)-------4
